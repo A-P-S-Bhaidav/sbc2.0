@@ -11,6 +11,16 @@ export interface UpdateItem {
 
 export const UPDATES_DATA: UpdateItem[] = [
   {
+    id: "demo-day-2027",
+    date: "MARCH 2027",
+    category: "upcoming",
+    text: "The road to KGP Forge Demo Day: mentorship, venture pitches and investor connections. Explore the proposed programme and four key milestones.",
+    cta: {
+      label: "Explore the Timeline",
+      href: "#timeline",
+    },
+  },
+  {
     id: "registration-open",
     date: "OPEN NOW",
     category: "new",

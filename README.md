@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+For the SBC production setup and the DNS handoff for `sbc.ecell-iitkgp.co.in`, see
+[DEPLOYMENT.md](./DEPLOYMENT.md). Demo Day content is maintained in
+[`data/demo-day.ts`](./data/demo-day.ts).
+
 ## Getting Started
 
 First, run the development server:

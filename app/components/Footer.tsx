@@ -144,6 +144,11 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-xs sm:text-sm text-[#321F1F]/80 flex flex-col items-center md:items-start">
               <li>
+                <Link href="/#timeline" className="hover:text-[#972933] transition-colors inline-block py-0.5">
+                  Demo Day & Timeline
+                </Link>
+              </li>
+              <li>
                 <Link
                   href="/register"
                   className="font-medium text-[#972933] hover:underline inline-flex items-center justify-center md:justify-start gap-1 py-0.5"

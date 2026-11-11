@@ -15,11 +15,11 @@ export interface NavTab {
 
 export const NAV_TABS: NavTab[] = [
   { label: "The Case", href: "/#case", sectionId: "case", aliases: ["case"] },
+  { label: "Timeline", href: "/#timeline", sectionId: "timeline", aliases: ["timeline"] },
   { label: "Past Mentors", href: "/#partners", sectionId: "partners", aliases: ["partners", "mentors", "sponsors"] },
   { label: "Eligibility", href: "/#eligibility", sectionId: "eligibility", aliases: ["eligibility"] },
   { label: "Judging", href: "/#judging", sectionId: "judging", aliases: ["judging", "evaluation-criteria"] },
   { label: "Incentives", href: "/#incentives", sectionId: "incentives", aliases: ["incentives", "survey"] },
-  { label: "", href: "/#faq", sectionId: "faq", aliases: ["faq", ""] },
 ];
 
 export default function Header() {
