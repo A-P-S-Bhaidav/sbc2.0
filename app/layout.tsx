@@ -35,6 +35,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sbc.ecell-iitkgp.co.in"),
   title: "Startup Bootcamp 9.0 | E-Cell IIT Kharagpur",
   description:
     "Startup Boot Camp (SBC) is the Entrepreneurship Cell, IIT Kharagpur's mentorship programme for early-stage student ventures, now in its ninth edition. Selected startups are paired with founders, alumni, and industry mentors for two rounds of one-on-one mentorship on business model, strategy, and pitch execution.",
@@ -59,10 +60,10 @@ export const metadata: Metadata = {
     siteName: "Startup Bootcamp 9.0 | E-Cell IIT Kharagpur",
     locale: "en_IN",
     type: "website",
-    url: "https://sbc.ecell-iitkgp.in",
+    url: "https://sbc.ecell-iitkgp.co.in",
     images: [
       {
-        url: "https://sbc.ecell-iitkgp.in/opengraph-image.png",
+        url: "https://sbc.ecell-iitkgp.co.in/opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "Startup Bootcamp 9.0",

@@ -3,6 +3,7 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Bulletin from "./components/Bulletin";
+import DemoDayTimeline from "./components/DemoDayTimeline";
 import PastMentorsMarquee from "./components/PastMentorsMarquee";
 import Eligibility from "./components/Eligibility";
 import Judging from "./components/Judging";
@@ -24,6 +25,9 @@ export default function Home() {
 
         {/* 3. Bulletin / Updates Section */}
         <Bulletin />
+
+        {/* SBC / KGP Forge Demo Day journey */}
+        <DemoDayTimeline />
 
         {/* 4. Past Mentors Infinite Horizontal Scroll Section */}
         <PastMentorsMarquee />
